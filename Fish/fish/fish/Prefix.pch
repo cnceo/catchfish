@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#define ADMOB_HEIGHT                           110
+
+#define ADMOB_FULLSCREEN_KEY                   @"ca-app-pub-5869820531988531/6302037806"
+#define ADMOB_KEY                              @"ca-app-pub-5869820531988531/4825304606"
+
+#define APP_DELEGATE    ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
